@@ -3,20 +3,25 @@
 <head>  
 <title>A Tail to Riches Home Page</title>
 <link rel="stylesheet" href="styles.css">
+<script src="javascript.js"></script>
 </head>
 <body>  
 
-    <div class="flex-container">
-        <div class="item flex-item-1"><a href="index.html">Home Page</a></div>
-        <div class="item flex-item-2"><a href="Start_Your_Adventure.html">Start Your Adventure!</a></div>
-        <div class="item flex-item-3"><a href="The_Creative_Process.html">The Creative Process</a></div>
+    <div class="grid-container-main">
+        <div class="grid-container-main-header flex-container">
+            <div class="item flex-item-1"><a onmouseenter="TextHover(this)" onmouseleave="TextNotHover(this)" href="index.html">Home Page</a></div>
+            <div class="item flex-item-2"><a onmouseenter="TextHover(this)" onmouseleave="TextNotHover(this)" href="Start_Your_Adventure.html">Start Your Adventure!</a></div>
+            <div class="item flex-item-3"><a onmouseenter="TextHover(this)" onmouseleave="TextNotHover(this)" href="The_Creative_Process.html">The Creative Process</a></div>
+        </div>
+
+        <div class="grid-container-main-content">
+            <h1>A Tail to Riches, A Short Choose Your Own Adventure Game!</h1>
+
+            <p>Welcome to a Tail to Riches! A Tail to Riches is a Choose Your Own Adventure Game featuring a daring cat as your playable character.
+               You will be faced with many trials and decisions in order to reach the dragon's hoard, clicking your way to glory or to your fate.
+               If you wish to play, simply click <a onmouseenter="TextHover(this)" onmouseleave="TextNotHover(this)" href="Start_Your_Adventure.html">Here</a>, or navigate to the top of this page and click "Start Your Adventure"!
+            </p>
+        </div>
     </div>
-
-    <h1>A Tail to Riches, A Short Choose Your Own Adventure Game!</h1>
-
-    <p>Welcome to a Tail to Riches! A Tail to Riches is a Choose Your Own Adventure Game featuring a daring cat as your playable character.
-        You will be faced with many trials and decisions in order to reach the dragon's hoard, clicking your way to glory or to your fate.
-        If you wish to play, simply click <a href="Start_Your_Adventure.html">Here</a>, or navigate to the top of this page and click "Start Your Adventure"!
-    </p>
 </body>
 </html>  
